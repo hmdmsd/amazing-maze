@@ -1,0 +1,19 @@
+# File: rust/Cargo.toml
+[package]
+name = "amazing-maze"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "maze_basic"
+path = "src/bin/maze_basic.rs"
+
+[[bin]]
+name = "maze_rc"
+path = "src/bin/maze_rc.rs"
+
+[[bin]]
+name = "maze_concurrent"
+path = "src/bin/maze_concurrent.rs"
